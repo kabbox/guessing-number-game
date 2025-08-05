@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Number Guessing Game</title>
+    <!-- css Link -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Press+Start+2P&family=Silkscreen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Font Awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Header Part Is Here -->
+    <header class="header">
+      <h1>Welcome To Guessing Game</h1>
+    </header>
+    <!-- Body Part Is Here -->
+    <main class="body-part">
+      <div class="upper">
+        <h1 class="center">Guess My Number!</h1>
+        <div class="center center-p">(Between 1 to 100)</div>
+        <p class="surprise">?</p>
+      </div>
+      <div class="lower">
+        <div class="left">
+          <input class="input-nm guess" type="number" />
+          <button class="btn check">Check!</button>
+          <p class="hint">Hint :</p>
+        </div>
+
+        <div class="right">
+          <h2 class="message">Start Guessing...</h2>
+          <p class="design-right attempts">Attepmts: 0</p>
+          <p class="design-right under">Lowest Attempts Win!</p>
+          <p class="design-right prev-attempts">
+            Previous Attempts Records : 0
+          </p>
+        </div>
+      </div>
+      <section class="again-btn">
+        <button class="btn bt-again">Again!</button>
+      </section>
+      <h2 class="develop-credit">This Game Was Developed By @KabboX</h2>
+    </main>
+    <footer>
+      <div class="credit-section">
+        <h3>All Rights And Reserved &copy Macro.Devs</h3>
+      </div>
+      <div class="nav-links">
+        <p>
+          <i class="fa-brands fa-github"> </i
+          ><a class="link" href="https://github.com/kabbox">KabboX</a>
+        </p>
+      </div>
+    </footer>
+    <!-- JavaScript Link -->
+    <script src="script.js"></script>
+  </body>
+</html>
