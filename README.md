@@ -6,14 +6,6 @@ A fun and interactive number guessing game built with HTML, CSS, and JavaScript.
 
 [Play the Game](https://kabbox.github.io/guessing-number-game)
 
-## 📸 Screenshots
-
-### Desktop View
-![Desktop View](https://via.placeholder.com/800x600/454545/ffffff?text=Desktop+View)
-
-### Mobile View
-![Mobile View](https://via.placeholder.com/400x800/454545/ffffff?text=Mobile+View)
-
 ## ✨ Features
 
 - 🎲 **Random Number Generation**: Each game generates a new random number between 1-100
