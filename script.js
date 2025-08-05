@@ -15,6 +15,7 @@ document.querySelector(".check").addEventListener("click", function () {
     document.querySelector(".body-part").style.transition = "all 2s";
     clickCount++;
     document.querySelector(".attempts").textContent = "Ateempts:" + clickCount;
+    document.querySelector(".hint").textContent = "Got It!";
   } else if (guess > secretNumber) {
     if (guess >= secretNumber + 1 && guess <= secretNumber + 2) {
       document.querySelector(".hint").textContent = "Hint : Up But Near";
@@ -52,4 +53,5 @@ document.querySelector(".bt-again").addEventListener("click", function () {
   document.querySelector(".input-nm").value = "";
   clickCount = 0;
   document.querySelector(".attempts").textContent = "Ateempts:" + clickCount;
+  document.querySelector(".hint").textContent = "Hint :";
 });
